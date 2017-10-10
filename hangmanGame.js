@@ -26,7 +26,7 @@ for(let i = 0; i < word.length; i++){
         }
       }
     }
-
+    // lets try a PR now
     // has the user answered the question
     if(progress.indexOf("_") == -1){
       guessed = true;
