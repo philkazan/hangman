@@ -1,5 +1,5 @@
 // pick a random word
-let words = ["Ryu","Daigo","Wong"];
+let words = ["Ryu","Daigo","FChamp"];
 let guessed = false;
 let guess = "";
 let word = words[Math.floor(Math.random()*words.length)];
@@ -8,7 +8,6 @@ let progress = [];
 for(let i = 0; i < word.length; i++){
   progress.push("_");
 }
-
   while(!guessed){
     alert(progress);
     guess = prompt("Guess the word!");
