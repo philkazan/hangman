@@ -4,7 +4,7 @@ let guessed = false;
 let guess = "";
 let word = words[Math.floor(Math.random()*words.length)];
 let progress = [];
-
+// a simple comment for github desktop
 for(let i = 0; i < word.length; i++){
   progress.push("_");
 }
