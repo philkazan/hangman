@@ -4,7 +4,7 @@ let guessed = false;
 let guess = "";
 let word = words[Math.floor(Math.random()*words.length)];
 let progress = [];
-
+// a simple comment for github desktop
 for(let i = 0; i < word.length; i++){
   progress.push("_");
 }
@@ -26,13 +26,13 @@ for(let i = 0; i < word.length; i++){
         }
       }
     }
-
+    // lets try a PR now
     // has the user answered the question
     if(progress.indexOf("_") == -1){
       guessed = true;
     }
   }
-
+// one moar thing
   if(guess.toLowerCase() === "quit"){
     alert("You quit.");
   }else{
