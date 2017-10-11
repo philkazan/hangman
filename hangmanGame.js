@@ -32,7 +32,7 @@ for(let i = 0; i < word.length; i++){
       guessed = true;
     }
   }
-
+// one moar thing
   if(guess.toLowerCase() === "quit"){
     alert("You quit.");
   }else{
