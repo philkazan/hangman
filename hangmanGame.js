@@ -38,4 +38,5 @@ for(let i = 0; i < word.length; i++){
     alert("You quit.");
   }else{
     alert("You guessed it!\n" + "word: " + word );
+    alert("This is the end of the game.");
   }
